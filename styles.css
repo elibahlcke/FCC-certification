@@ -1,0 +1,168 @@
+
+
+body {
+  background-image: url("https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+    filter: brightness(0,5);
+}
+div {
+  background-color: rgba(88, 87, 87, 0.5);
+    width: 50%;
+  position: absolute;
+  left: 350px;
+   
+}
+#title {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: arial;
+}
+#description {
+  color: white;
+  font-style: italic;
+  font-family: arial narrow;
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+
+label {
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+form input{
+  border-radius: 5px;
+  border:1px solid #f6f6f6;
+  background-color:#f6f6f6;
+  width:400px;
+  height: 25px;
+}
+form input#name {
+  
+  padding:1px 10px;
+  margin:8px 0;
+  display:inline-block;
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+  }
+form input#email {
+  padding:1px 10px;
+  margin:8px 0;
+  display:inline-block;
+  position: relative;
+  left: 10px;
+  
+}
+#number-label {
+  position: relative;
+  top: 10px;
+}
+form input#number{
+    padding:1px 10px;
+  margin:8px 0;
+  display:inline-block;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+#dropdown {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 500px;
+  justify-content: center;
+  align-self: center;
+}
+#container {
+  position: relative;
+  width: 30%;
+  left: -85px;
+  top: 20px;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  display: block;
+  
+}
+input[type="radio"],
+input[type="checkbox"]{
+  width: initial;
+  display: block;
+}
+#check {
+  margin-top: 15px;
+}
+span {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  vertical-align: center;
+  }
+#cbox1, #c1 {
+  margin-right: 5px;
+  display: flex;
+  vertical-align: center;
+  position: relative;
+  left: 100px;
+}
+#cbox2, #c2 {
+  margin-right: 5px;
+  display: flex;
+  vertical-align: center;
+  position: relative;
+  left: 120px;
+}
+#cbox3, #c3 {
+  position: relative;
+  left: 140px;
+}
+
+#texta {
+  vertical-align: left;
+  text-align: left;
+}
+textarea {
+  width: 400px;
+  font-family: arial;
+  background-color: lightgrey;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+button {
+  margin-top: 15px;
+  width: 100px;
+  height: 30px;
+  font-family: arial;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  
+}
+
+button:hover {
+  width: 150px;
+  height: 35px;
+  color: black;
+  background-color: white;
+}
+#genero {
+  margin-top: 20px;
+}
