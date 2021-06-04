@@ -1,0 +1,53 @@
+<! DOCTYPE html>
+<html>
+<body>
+  <div>
+  <header>
+    <h1 id="title">ENCUESTA DE SATISFACCION</h1>
+  <p id="description">Agradecemos que se tome un momento para opinar sobre nuestro servicio. Gracias por ayudarnos a mejorar!</p>
+  </header>
+  <main>
+    <form action="#" id="survey-form" method="get">
+      <label for="name" id="name-label">Nombre</label><br/>
+      <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required/>
+      <label for="email" id="email-label">E-mail</label>
+      <input type="email" id="email" name="email" placeholder="Ingrese su email" required />
+      <label for="number" id="number-label">Edad(opcional)</label>
+      <input type="number" id="number" name="number" min="1" max="99" placeholder="Ingrese su edad" />
+      <label id="genero">Genero</label>
+      <select id="dropdown" name="dropdown" form="survey-form" class="custom-select" style="width:422px; height:30px; border-radius:5px;" required>
+    <option value="0">Seleccione una opcion:</option>
+    <option value="1">Femenino</option>
+    <option value="2">Masculino</option>
+    <option value="3">Otr@</option>
+   </select>
+      <fieldset id="container">
+         <p>Indique el grado de satisfaccion:<br>
+          <label for="r1"> <input type="radio" name="satisfaccion" value="muysatisfecho" id="r1"checked required>Muy satisfecho<br></label>
+<br>
+    <label for="r2"><input type="radio" name="satisfaccion" id="r2" value="satisfecho"> Satisfecho<br></label>
+
+    <label for="r3"><input type="radio" name="satisfaccion" id="r3" value="nadasatisfecho"> Nada satisfecho</label>
+  </p>
+    </fieldset>
+      <br>
+      <label id="check"> Que tan probable es que recomiende nuestro servicio a sus amigos/conocidos?</label>
+      <span>
+      <input type="checkbox" id="cbox1" value="muyprobable" checked required><label for="cbox1" id="c1"> Muy probable</label>
+<input type="checkbox" id="cbox2" value="bastanteprobable"> <label for="cbox2" id="c2">Bastante probable</label>
+      <input type="checkbox" id="cbox3" value="nadaprobable" > <label for="cbox3" id="c3">Nada probable</label>
+      </span>
+      <br>
+       <label id="texta">Comentarios o sugerencias</label>
+      <br>
+      <textarea id="textarea" name="textarea" rows="4" cols="50">
+ Ingrese sus comentarios o sugerencias.
+  </textarea>
+      <button type="submit" id="submit">ENVIAR</button>
+      </form>
+      <br>
+     
+  </main>
+  </div>
+  </body>
+</html>
